@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            background-image: url('tomato.webp');
+            background-size: cover;
+            color: #333;
+            margin: 120px;
+        }
+
+        .navbar {
+            width: 100%;
+            background-color: #e95f5f;
+            overflow: auto;
+            padding: 15px 0;
+        }
+
+        .navbar a {
+            float: left;
+            padding: 12px 20px;
+            color: white;
+            text-decoration: none;
+            font-size: 17px;
+            transition: background-color 0.3s;
+        }
+
+        .navbar a:hover {
+            background-color: #000;
+        }
+
+        .active {
+            background-color: #8a1c84;
+        }
+
+        h1, h2, h3, h4 {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        h1 {
+            color: purple;
+            font-size: 40px;
+        }
+
+        h2 {
+            color: blue;
+            font-size: 30px;
+        }
+
+        h3 {
+            font-style: italic;
+            color: #8a1c84;
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px 0;
+        }
+
+        .column {
+            flex: 1 1 30%;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .column img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .content {
+            padding: 10px;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        video {
+            display: block;
+            margin: 0 auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        @media screen and (max-width: 768px) {
+            .navbar a {
+                float: none;
+                display: block;
+                text-align: center;
+            }
+
+            .column {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+    <title>My Internship Experience</title>
+</head>
+<body>
+
+    <div class="navbar">
+        <a href="C:/Users/DELL/Documents/HTML/erdina%20haflin.html"><i class="fa fa-user"></i> ME</a>
+        <a href="file:///C:/Users/DELL/Documents/HTML/erdina%20haflin2.html"><i class="fa fa-users"></i> MY FAMILY</a>
+        <a href="file:///C:/Users/DELL/Documents/HTML/erdina%20haflin3.html"><i class="fa fa-envelope"></i> CONTACT</a>
+        <a class="active" href="file:///C:/Users/DELL/Documents/HTML/erdina%20haflin4.html"><i class="fa fa-briefcase"></i> EXPERIENCE</a>
+    </div>
+
+    <h3>&#x1F380; INTERNSHIP EXPERIENCE &#x1F380;</h3>
+    <h1>This is <sub>my EXPERIENCE</sub> during <sup>my INTERNSHIP</sup></h1>
+
+    <h2>PEJABAT TANAH DAERAH BATU PAHAT</h2>
+
+    <div class="row">
+        <div class="column">
+            <img src="INTERN 1.jpg" alt="Intern 1">
+        </div>
+        <div class="column">
+            <img src="INTERN 2.jpg" alt="Intern 2">
+        </div>
+        <div class="column">
+            <img src="bangunan.jpg" alt="Building">
+        </div>
+        <div class="column">
+            <img src="meeting.jpg" alt="Meeting">
+        </div>
+    </div>
+
+    <h2>INTERNSHIP ACTIVITIES</h2>
+    <p>THE BEST MOMENTS!</p>
+
+    <div class="row">
+        <div class="column">
+            <div class="content">
+                <img src="drawing contest.jpg" alt="Drawing Contest">
+                <h3>ME WITH ALL THE INTERN STUDENTS</h3>
+                <p>Taking care of preschoolers during the independence day coloring competition. We ensured they used their own stationery and played nicely with their friends.</p>
+            </div>
+        </div>
+        <div class="column">
+            <div class="content">
+                <img src="bikers day.jpg" alt="Bikers Day">
+                <h3>OPENING FOR KEMBARA MERDEKA</h3>
+                <p>We wore white shirts as organizers for the event. It was so much fun, and I learned how to communicate appropriately with older individuals.</p>
+            </div>
+        </div>
+    </div>
+
+    <h2>MY EXPERIENCE IN PAC</h2>
+    <p>AS A MAIN CHARACTER IN A DRAMA CALLED (MASIHKAH ADA RAYA)</p>
+
+    <video width="400" controls>
+        <source src="drama.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+</body>
+</html>
